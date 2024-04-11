@@ -1,13 +1,15 @@
+#hold {
+  display: inline-flex;
+}
+
 #click {
   background-color: yellow;
   height: 100%;
   width: 50%;
-  margin-right: 50%px;
 }
 
 #shop {
   background-color: green;
   height: 100%;
   width: 50%;
-  margin-left: 50%px;
 }
