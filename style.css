@@ -2,12 +2,12 @@
   background-color: yellow;
   height: 100%;
   width: 50%;
-  align-content: left;
+  margin-right: 50%px;
 }
 
 #shop {
   background-color: green;
   height: 100%;
   width: 50%;
-  align-content: left;
+  margin-left: 50%px;
 }
