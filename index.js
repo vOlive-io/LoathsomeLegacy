@@ -11,5 +11,5 @@ var = legacy;
 //          FUNCTIONS         //
 ////////////////////////////////
 function gain() {
-
+  legacy++;
 }
