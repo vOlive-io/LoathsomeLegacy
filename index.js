@@ -4,11 +4,22 @@
 //basic
 var legacy = 0;
 //light auto
+
 //medium auto
+
 //heavy auto
+
+//counts
+
+//upgrades
+
+//skins
+
+//achevments
+
+//number stuff
+
 //season stuff
-
-
 ////////////////////////////////
 //           INSTAS           //
 ////////////////////////////////
