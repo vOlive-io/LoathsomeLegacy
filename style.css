@@ -14,10 +14,18 @@
   height: 100%;
   width: 500px;
 }
-#title {
-  font-size: 20px;
+
+#history {
+  color: #06285e;
+  list-style-type: none;
+  font-weight: 20px;
 }
 
-#credit {
-  font-size: 12px;
+
+#adds {
+  list-style-type: square;
+  font-size: 15px;
+  color: #363025;
+  opacity: 1;
+  text-align: left;
 }
