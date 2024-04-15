@@ -14,6 +14,7 @@ var baseBankGain = 1;
 var baseLabGain = 1;
 var baseSageTowerGain = 1;
 var basePrismGain = 1;
+
 //medium auto
 
 //heavy auto
@@ -34,6 +35,7 @@ var = summoner = 0;
 var = hatredCompressor = 0;
 var = universe = 0;
 var = empire = 0;
+
 //upgrades
 
 //skins
