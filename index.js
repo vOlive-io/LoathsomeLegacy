@@ -61,5 +61,5 @@ function gain() {
 //         AUTO POINTS        //
 ////////////////////////////////
 function autogain() {
-  legacy = legacy + //somthn;
+  legacy = legacy + baseClickerGain;
 }
