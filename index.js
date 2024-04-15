@@ -26,15 +26,15 @@ var farm = 0;
 var mine = 0;
 var factory = 0;
 var bank = 0;
-var = lab = 0;
-var = sageTower = 0;
-var = prism = 0;
-var = crysalizationBiosphere = 0;
-var = converterter = 0;
-var = summoner = 0;
-var = hatredCompressor = 0;
-var = universe = 0;
-var = empire = 0;
+var lab = 0;
+var sageTower = 0;
+var prism = 0;
+var crysalizationBiosphere = 0;
+var converterter = 0;
+var summoner = 0;
+var hatredCompressor = 0;
+var universe = 0;
+var empire = 0;
 
 //upgrades
 
