@@ -5,7 +5,15 @@
 var legacy = 0;
 
 //light auto
-
+var baseClickerGain = 1;
+var baseOrbGain = 1;
+var baseFarmGain = 1;
+var baseMineGain = 1;
+var baseFactoryGain = 1;
+var baseBankGain = 1;
+var baseLabGain = 1;
+var baseSageTowerGain = 1;
+var basePrismGain = 1;
 //medium auto
 
 //heavy auto
