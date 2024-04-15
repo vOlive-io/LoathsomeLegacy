@@ -8,12 +8,14 @@ body {
 }
 
 #click {
+  background-color: maroon;
   height: 100%;
   width: 500vw;
   font-size: 30px;
 }
 
 #shop {
+  background-color: red;
   height: 100%;
   width: 500vw;
 }
@@ -31,3 +33,7 @@ body {
   opacity: 1;
   text-align: left;
 }
+
+
+
+
