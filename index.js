@@ -60,6 +60,8 @@ function gain() {
 ////////////////////////////////
 //         AUTO POINTS        //
 ////////////////////////////////
-function autogain() {
+function autogain() { 
+  if (clickers>0) {
   legacy = legacy + baseClickerGain;
+  }
 }
