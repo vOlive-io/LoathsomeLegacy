@@ -1,14 +1,20 @@
 ////////////////////////////////
+//          CHARGERS          //
+////////////////////////////////
+setInterval(autogain, 1)
+
+
+////////////////////////////////
 //            VARS            //
 ////////////////////////////////
 //basic
 var legacy = 0;
 
 //light auto
-var baseClickerGain = 1;
+var baseClickerGain = 0.1;
 var baseOrbGain = 1;
-var baseFarmGain = 1;
-var baseMineGain = 1;
+var baseFarmGain = 8;
+var baseMineGain = 10;
 var baseFactoryGain = 1;
 var baseBankGain = 1;
 var baseLabGain = 1;
