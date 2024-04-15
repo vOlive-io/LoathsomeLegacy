@@ -1,3 +1,6 @@
+body {
+  background-color: #ffffff;
+}
 
 #hold {
   display: inline-flex;
@@ -5,13 +8,11 @@
 }
 
 #click {
-  background-color: yellow;
   height: 100%;
   width: 500vw;
 }
 
 #shop {
-  background-color: green;
   height: 100%;
   width: 500vw;
 }
