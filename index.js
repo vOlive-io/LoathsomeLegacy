@@ -3,6 +3,7 @@
 ////////////////////////////////
 //basic
 var legacy = 0;
+
 //light auto
 
 //medium auto
@@ -10,7 +11,13 @@ var legacy = 0;
 //heavy auto
 
 //counts
-
+var clickers = 0;
+var orbs = 0;
+var summuners = 0;
+var farms = 0;
+var mines = 0;
+var extolab = 0;
+var = factory = 0;
 //upgrades
 
 //skins
