@@ -8,6 +8,7 @@ body {
 }
 
 #click {
+  font-size: 40vw;
   height: 100%;
   width: 500vw;
 }
@@ -15,6 +16,10 @@ body {
 #shop {
   height: 100%;
   width: 500vw;
+}
+
+h1 {
+  font-size: 20px;
 }
 
 #history {
@@ -30,8 +35,5 @@ body {
   opacity: 1;
   text-align: left;
 }
-
-
-
 
 
