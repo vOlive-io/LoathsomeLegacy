@@ -13,11 +13,19 @@ var legacy = 0;
 //counts
 var clickers = 0;
 var orbs = 0;
-var summuners = 0;
-var farms = 0;
-var mines = 0;
-var extolab = 0;
-var = factory = 0;
+var farm = 0;
+var mine = 0;
+var factory = 0;
+var bank = 0;
+var = lab = 0;
+var = sageTower = 0;
+var = prism = 0;
+var = crysalizationBiosphere = 0;
+var = converterter = 0;
+var = summoner = 0;
+var = hatredCompressor = 0;
+var = universe = 0;
+var = empire = 0;
 //upgrades
 
 //skins
