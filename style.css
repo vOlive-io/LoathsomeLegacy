@@ -1,6 +1,3 @@
-body {
-  background-color: #ffffff;
-}
 
 #hold {
   display: inline-flex;
@@ -8,22 +5,19 @@ body {
 }
 
 #click {
-  font-size: 40vw;
+  background-color: yellow;
   height: 100%;
   width: 500vw;
 }
 
 #shop {
+  background-color: green;
   height: 100%;
   width: 500vw;
 }
 
-h1 {
-  font-size: 20px;
-}
-
 #history {
-  color: #06285e;
+  color: #5e0606;
   list-style-type: none;
   font-weight: 20px;
 }
@@ -31,9 +25,7 @@ h1 {
 #adds {
   list-style-type: square;
   font-size: 15px;
-  color: #363025;
+  color: #380000;
   opacity: 1;
   text-align: left;
 }
-
-
