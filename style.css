@@ -1,3 +1,6 @@
+body {
+  background-color: #4a000a;
+}
 
 #hold {
   display: inline-flex;
