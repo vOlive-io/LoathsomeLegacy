@@ -1,7 +1,13 @@
 ////////////////////////////////
 //            VARS            //
 ////////////////////////////////
+//basic
 var legacy = 0;
+//light auto
+//medium auto
+//heavy auto
+//season stuff
+
 
 ////////////////////////////////
 //           INSTAS           //
@@ -12,4 +18,12 @@ var legacy = 0;
 ////////////////////////////////
 function gain() {
   legacy++;
+}
+
+
+////////////////////////////////
+//         AUTO POINTS        //
+////////////////////////////////
+function autogain() {
+  legacy = legacy + //somthn;
 }
