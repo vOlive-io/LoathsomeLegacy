@@ -1,18 +1,19 @@
 
 #hold {
   display: inline-flex;
+  width: 100%;
 }
 
 #click {
   background-color: yellow;
   height: 100%;
-  width: 500px;
+  width: 500vw;
 }
 
 #shop {
   background-color: green;
   height: 100%;
-  width: 500px;
+  width: 500vw;
 }
 
 #history {
