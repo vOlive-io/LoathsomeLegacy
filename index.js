@@ -70,16 +70,16 @@ console.log("Hello There!")
 ////////////////////////////////
 function gain() {
   legacy++;
-  let displayLegacy = legacy;
+  let displayPoints = legacy;
   for (let i = suffixes.length - 1; i >= 1; i--) {
     const limit = Math.pow(10, i * 3);
     if (legacy >= limit) {
-      displayLegacy = (legacy / limit).toFixed(1) + suffixes[i];
+      displayPoints = (legacy / limit).toFixed(1) + suffixes[i];
       break;
     }
   }
-  circle.innerText = "😈 - " + displayCount;
-  master.innerText = displayCount + " Legacy Points - LoathsomeLegacy";
+  circle.innerText = "😈 - " + displayPoints;
+  master.innerText = displayPoints + " Legacy Points - LoathsomeLegacy";
 }
 
 
