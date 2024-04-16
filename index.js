@@ -29,21 +29,21 @@ var basePrismGain = 1;
 //heavy auto
 
 //counts
-var clickers = 0;
-var orbs = 0;
-var farm = 0;
-var mine = 0;
-var factory = 0;
-var bank = 0;
-var lab = 0;
-var sageTower = 0;
-var prism = 0;
-var crysalizationBiosphere = 0;
-var converterter = 0;
-var summoner = 0;
-var hatredCompressor = 0;
-var universe = 0;
-var empire = 0;
+var clickerCount = 0;
+var orbCount = 0;
+var farmCount = 0;
+var mineCount = 0;
+var factoryCount = 0;
+var bankCount = 0;
+var labCount = 0;
+var sageTowerCount = 0;
+var prismCount = 0;
+var crysalizationBiosphereCount = 0;
+var converterterCount = 0;
+var summonerCount = 0;
+var hatredCompressorCount = 0;
+var universeCount = 0;
+var empireCount = 0;
 
 //numbers
 const suffixes = [
