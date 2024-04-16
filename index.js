@@ -12,6 +12,7 @@ var legacy = 0;
 
 //shop
 var clickerCost = 0;
+
 //light auto
 var baseClickerGain = 0.1;
 var baseOrbGain = 1;
@@ -89,7 +90,7 @@ function clickerBuy() {
   if (legacy >= clickerCost) {
     legacy -= clickerCost;
     normalIns = normalIns + addnormalIns;
-    normalcats = normalcats + 1;
+    clickerCount = clickerCount + 1;
     cost1 = Math.round(clickerCost * 1.2);
 }
 }
