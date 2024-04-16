@@ -10,6 +10,8 @@ setInterval(autogain, 1)
 //basic
 var legacy = 0;
 
+//shop
+var clickerCost = 0;
 //light auto
 var baseClickerGain = 0.1;
 var baseOrbGain = 1;
@@ -83,7 +85,13 @@ function gain() {
 }
 
 function clickerBuy() {
-
+ if (clickerCost < legacy) { }
+  if (legacy >= clickerCost) {
+    legacy -= clickerCost;
+    normalIns = normalIns + addnormalIns;
+    normalcats = normalcats + 1;
+    cost1 = Math.round(clickerCost * 1.2);
+}
 }
 
 ////////////////////////////////
