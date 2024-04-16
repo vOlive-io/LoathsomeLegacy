@@ -89,7 +89,7 @@ function clickerBuy() {
  if (clickerCost < legacy) { }
   if (legacy >= clickerCost) {
     legacy -= clickerCost;
-    normalIns = normalIns + addnormalIns;
+  //normalIns = normalIns + addnormalIns;
     clickerCount = clickerCount + 1;
     cost1 = Math.round(clickerCost * 1.2);
 }
