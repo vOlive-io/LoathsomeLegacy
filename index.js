@@ -78,8 +78,8 @@ function gain() {
       break;
     }
   }
-  printerName.innerText = "You have $" + displayCount;
-  tit.innerText = displayCount + " Cats - Catstack";
+  circle.innerText = "😈 - " + displayCount;
+  master.innerText = displayCount + " Legacy Points - LoathsomeLegacy";
 }
 
 
