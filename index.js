@@ -82,7 +82,7 @@ function gain() {
   master.innerText = displayPoints + " Legacy Points - LoathsomeLegacy";
 }
 
-clickerBuy{
+function clickerBuy() {
 
 }
 
