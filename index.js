@@ -42,6 +42,14 @@ var hatredCompressor = 0;
 var universe = 0;
 var empire = 0;
 
+//numbers
+const suffixes = [
+  '',
+  ' thousand',
+  ' million',
+  ' billion',
+  ' trillion'
+  ]
 //upgrades
 
 //skins
@@ -56,11 +64,22 @@ var empire = 0;
 ////////////////////////////////
 console.log("Hello There!")
 
+
 ////////////////////////////////
 //          FUNCTIONS         //
 ////////////////////////////////
 function gain() {
   legacy++;
+  let displayLegacy = legacy;
+  for (let i = suffixes.length - 1; i >= 1; i--) {
+    const limit = Math.pow(10, i * 3);
+    if (count >= limit) {
+      displayLegacy = (legacy / limit).toFixed(1) + suffixes[i];
+      break;
+    }
+  }
+  printerName.innerText = "You have $" + displayCount;
+  tit.innerText = displayCount + " Cats - Catstack";
 }
 
 
