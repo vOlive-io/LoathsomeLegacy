@@ -89,7 +89,16 @@ function update() {
 ////////////////////////////////
 function gain() {
   legacy++;
-  update();
+    let displayPoints = legacy;
+  for (let i = suffixes.length - 1; i >= 1; i--) {
+    const limit = Math.pow(10, i * 3);
+    if (legacy >= limit) {
+      displayPoints = (legacy / limit).toFixed(1) + suffixes[i];
+      break;
+    }
+  }
+    circle.innerText = "😈 - " + displayPoints;
+    countClicker.innerText = "Clickers - " + clickerCount;
 }
 
 function clickerBuy() {
