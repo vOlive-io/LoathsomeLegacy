@@ -92,8 +92,8 @@ function clickerBuy() {
   //normalIns = normalIns + addnormalIns;
     clickerCount = clickerCount + 1;
     clickerCost = Math.round(clickerCost * 1.2);
-   totalClicker.innerHTML = "Clickers - " + clickerCount;
-   rackOne.innerHTML = clickerCost;
+   clickerNum.innerHTML = "Clickers - " + clickerCount;
+   clickerPri.innerHTML = clickerCost;
 }
 }
 
