@@ -85,12 +85,13 @@ function update() {
 
 
 function updateGains() {
-
+  curClickerGain = clickerCount * baseClickerGain;
 }
 
 function updatePoints() {
 
 }
+
 ////////////////////////////////
 //          FUNCTIONS         //
 ////////////////////////////////
