@@ -2,7 +2,7 @@
 //          CHARGERS          //
 ////////////////////////////////
 setInterval(autogain, 1)
-
+update();
 
 ////////////////////////////////
 //            VARS            //
@@ -68,6 +68,10 @@ const suffixes = [
 const texts = ['Hello There!', 'Haching in some points, or checking for bugs?', 'Hi Olive Here'];;
 text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
+
+function update() {
+
+}
 
 ////////////////////////////////
 //          FUNCTIONS         //
