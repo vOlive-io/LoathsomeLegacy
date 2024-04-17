@@ -91,7 +91,7 @@ function clickerBuy() {
     legacy -= clickerCost;
   //normalIns = normalIns + addnormalIns;
     clickerCount = clickerCount + 1;
-    clickerCount = Math.round(clickerCost * 1.2);
+    clickerCost = Math.round(clickerCost * 1.2);
    totalClicker.innerHTML = "Clickers - " + clickerCount;
 }
 }
