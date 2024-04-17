@@ -27,15 +27,15 @@ var basePrismGain = 1;
 //medium auto
 
 //heavy auto
-var curClickerGain = 0.1;
-var curOrbGain = 1;
-var curFarmGain = 8;
-var curMineGain = 10;
-var curFactoryGain = 1;
-var curBankGain = 1;
-var curLabGain = 1;
-var curPrismGain = 1;
-var curPrismGain = 1;
+var curClickerGain = 0;
+var curOrbGain = 0;
+var curFarmGain = 0;
+var curMineGain = 0;
+var curFactoryGain = 0;
+var curBankGain = 0;
+var curLabGain = 0;
+var curPrismGain = 0;
+var curPrismGain = 0;
 
 //counts
 var clickerCount = 0;
@@ -115,6 +115,6 @@ function clickerBuy() {
 ////////////////////////////////
 function autogain() { 
   if (clickerCount>0) {
-  legacy = legacy + baseClickerGain * clickerCount;
+  legacy = legacy + curClickerGain;
   }
 }
