@@ -2,7 +2,7 @@
 //          CHARGERS          //
 ////////////////////////////////
 setInterval(autogain, 1)
-
+update();
 
 ////////////////////////////////
 //            VARS            //
@@ -80,6 +80,7 @@ function gain() {
     if (legacy >= limit) {
       displayPoints = (legacy / limit).toFixed(1) + suffixes[i];
       break;
+      update();
     }
   }
   circle.innerText = "😈 - " + displayPoints;
@@ -92,7 +93,8 @@ function clickerBuy() {
     legacy -= clickerCost;
   //normalIns = normalIns + addnormalIns;
     clickerCount = clickerCount + 1;
-    cost1 = Math.round(clickerCost * 1.2);
+    clickerCount = Math.round(clickerCost * 1.2);
+    update();
 }
 }
 
