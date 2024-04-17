@@ -2,7 +2,7 @@
 //          CHARGERS          //
 ////////////////////////////////
 setInterval(autogain, 1)
-update();
+
 
 ////////////////////////////////
 //            VARS            //
@@ -69,9 +69,6 @@ const texts = ['Hello There!', 'Haching in some points, or checking for bugs?', 
 text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
-function update() {
-    totalClicker.innerHTML = "Clickers - " + clickerCount;
-}
 ////////////////////////////////
 //          FUNCTIONS         //
 ////////////////////////////////
@@ -86,7 +83,6 @@ function gain() {
     }
   }
     circle.innerHTML = "😈 - " + displayPoints;
-    countClicker.innerHTML = "Clickers - " + clickerCount;
 }
 
 function clickerBuy() {
@@ -96,7 +92,7 @@ function clickerBuy() {
   //normalIns = normalIns + addnormalIns;
     clickerCount = clickerCount + 1;
     clickerCount = Math.round(clickerCost * 1.2);
-    update();
+   totalClicker.innerHTML = "Clickers - " + clickerCount;
 }
 }
 
