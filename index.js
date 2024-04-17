@@ -100,7 +100,7 @@ function clickerBuy() {
 //         AUTO POINTS        //
 ////////////////////////////////
 function autogain() { 
-  if (clickers>0) {
+  if (clickerCount>0) {
   legacy = legacy + baseClickerGain;
   }
 }
