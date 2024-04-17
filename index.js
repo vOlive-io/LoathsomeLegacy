@@ -71,7 +71,7 @@ console.log(text)
 
 function update() {
   //stylize
-    let displayPoints = legacy;
+  let displayPoints = legacy;
   for (let i = suffixes.length - 1; i >= 1; i--) {
     const limit = Math.pow(10, i * 3);
     if (legacy >= limit) {
