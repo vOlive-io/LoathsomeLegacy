@@ -70,7 +70,7 @@ text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
 function update() {
-    totalClicker.innerText = "Clickers - " + clickerCount;
+    totalClicker.innerHTML = "Clickers - " + clickerCount;
 }
 ////////////////////////////////
 //          FUNCTIONS         //
@@ -85,8 +85,8 @@ function gain() {
       break;
     }
   }
-    circle.innerText = "😈 - " + displayPoints;
-    countClicker.innerText = "Clickers - " + clickerCount;
+    circle.innerHTML = "😈 - " + displayPoints;
+    countClicker.innerHTML = "Clickers - " + clickerCount;
 }
 
 function clickerBuy() {
