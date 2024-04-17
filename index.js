@@ -70,7 +70,7 @@ text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
 function update() {
-    countClicker.innerText = "Clickers - " + clickerCount;
+    totalClicker.innerText = "Clickers - " + clickerCount;
 }
 ////////////////////////////////
 //          FUNCTIONS         //
