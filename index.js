@@ -101,6 +101,6 @@ function clickerBuy() {
 ////////////////////////////////
 function autogain() { 
   if (clickerCount>0) {
-  legacy = legacy + baseClickerGain;
+  legacy = legacy + baseClickerGain * clickerCount;
   }
 }
