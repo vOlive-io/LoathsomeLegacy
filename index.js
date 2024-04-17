@@ -11,7 +11,7 @@ setInterval(autogain, 1)
 var legacy = 0;
 
 //shop
-var clickerCost = 0;
+var clickerCost = 15;
 
 //light auto
 var baseClickerGain = 0.1;
