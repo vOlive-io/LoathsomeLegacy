@@ -79,9 +79,18 @@ text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
 function update() {
+  updateGains();
+  updatePoints();
+}
+
+
+function updateGains() {
 
 }
 
+function updatePoints() {
+
+}
 ////////////////////////////////
 //          FUNCTIONS         //
 ////////////////////////////////
