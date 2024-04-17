@@ -27,6 +27,15 @@ var basePrismGain = 1;
 //medium auto
 
 //heavy auto
+var curClickerGain = 0.1;
+var curOrbGain = 1;
+var curFarmGain = 8;
+var curMineGain = 10;
+var curFactoryGain = 1;
+var curBankGain = 1;
+var curLabGain = 1;
+var curPrismGain = 1;
+var curPrismGain = 1;
 
 //counts
 var clickerCount = 0;
