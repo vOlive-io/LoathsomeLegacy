@@ -70,18 +70,6 @@ text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
 function update() {
-  //stylize
-  let displayPoints = legacy;
-  for (let i = suffixes.length - 1; i >= 1; i--) {
-    const limit = Math.pow(10, i * 3);
-    if (legacy >= limit) {
-      displayPoints = (legacy / limit).toFixed(1) + suffixes[i];
-      break;
-    }
-  }
-  //update
-    master.innerText = displayPoints + " Legacy Points - LoathsomeLegacy";
-    circle.innerText = "😈 - " + displayPoints;
     countClicker.innerText = "Clickers - " + clickerCount;
 }
 ////////////////////////////////
