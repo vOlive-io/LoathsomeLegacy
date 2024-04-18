@@ -2,7 +2,6 @@
 //          CHARGERS          //
 ////////////////////////////////
 setInterval(autogain, 1)
-update();
 
 ////////////////////////////////
 //            VARS            //
@@ -78,11 +77,6 @@ const texts = ['Hello There!', 'Hacking in some points, or checking for bugs?', 
 text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
-function update() {
-  updateGains();
-  updatePoints();
-}
-
 
 function updateGains() {
   curClickerGain = clickerCount * baseClickerGain;
@@ -92,7 +86,7 @@ function updatePoints() {
     let displayPoints = legacy;
   for (let i = suffixes.length - 1; i >= 1; i--) {
     const limit = Math.pow(10, i * 3);
-    if (legacy >= limit) {x
+    if (legacy >= limit) {
       displayPoints = (legacy / limit).toFixed(1) + suffixes[i];
       break;
     }
@@ -135,6 +129,7 @@ function clickerBuy() {
 function autogain() { 
   if (clickerCount>0) {
   legacy = legacy + curClickerGain;
-  update();
+  updatePoints(); 
+  updateGains();
   }
 }
