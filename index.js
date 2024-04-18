@@ -100,7 +100,7 @@ function updatePoints() {
   }
     circle.innerHTML = "😈 - " + displayPoints;
 }
-}
+
 
 ////////////////////////////////
 //          FUNCTIONS         //
