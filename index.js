@@ -89,16 +89,6 @@ function updateGains() {
 }
 
 function updatePoints() {
-    legacy++;
-    let displayPoints = legacy;
-  for (let i = suffixes.length - 1; i >= 1; i--) {
-    const limit = Math.pow(10, i * 3);
-    if (legacy >= limit) {
-      displayPoints = (legacy / limit).toFixed(1) + suffixes[i];
-      break;
-    }
-  }
-    circle.innerHTML = "😈 - " + displayPoints;
 }
 
 
