@@ -13,7 +13,7 @@ var legacy = 0;
 var clickerCost = 15;
 
 //light auto
-var baseClickerGain = 1;
+var baseClickerGain = 0.1;
 var baseOrbGain = 1;
 var baseFarmGain = 8;
 var baseMineGain = 10;
