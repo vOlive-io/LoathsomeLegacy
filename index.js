@@ -80,6 +80,7 @@ console.log(text)
 
 function updateGains() {
   curClickerGain = clickerCount * baseClickerGain;
+  curOrbGain = orbCount * baseOrbGain;
 }
 
 function updatePoints() {
@@ -112,6 +113,18 @@ function gain() {
 }
 
 function clickerBuy() {
+ if (clickerCost < legacy) { }
+  if (legacy >= clickerCost) {
+    legacy -= clickerCost;
+  //normalIns = normalIns + addnormalIns;
+    clickerCount = clickerCount + 1;
+    clickerCost = Math.round(clickerCost * 1.2);
+   clickerNum.innerHTML = "Clickers - " + clickerCount;
+   clickerPri.innerHTML = clickerCost;
+}
+}
+
+function orbsBuy() {
  if (clickerCost < legacy) { }
   if (legacy >= clickerCost) {
     legacy -= clickerCost;
