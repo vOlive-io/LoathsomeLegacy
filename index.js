@@ -35,7 +35,6 @@ var curFactoryGain = 0;
 var curBankGain = 0;
 var curLabGain = 0;
 var curPrismGain = 0;
-var curPrismGain = 0;
 
 //counts
 var clickerCount = 0;
@@ -126,14 +125,14 @@ function clickerBuy() {
 }
 
 function orbsBuy() {
- if (clickerCost < legacy) { }
-  if (legacy >= clickerCost) {
-    legacy -= clickerCost;
+ if (orbCost < legacy) { }
+  if (legacy >= orbCost) {
+    legacy -= orbCost;
   //normalIns = normalIns + addnormalIns;
-    clickerCount = clickerCount + 1;
-    clickerCost = Math.round(clickerCost * 1.2);
-   clickerNum.innerHTML = "Clickers - " + clickerCount;
-   clickerPri.innerHTML = clickerCost;
+    orbCount = orbCount + 1;
+    orbCost = Math.round(orbCost * 1.2);
+   clickerNum.innerHTML = "Orbs - " + orbCount;
+   clickerPri.innerHTML = orbCost;
 }
 }
 
