@@ -11,6 +11,7 @@ var legacy = 0;
 
 //shop
 var clickerCost = 15;
+var orbCost = 100;
 
 //light auto
 var baseClickerGain = 0.0005;;
