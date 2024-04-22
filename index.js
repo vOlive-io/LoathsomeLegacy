@@ -80,7 +80,7 @@ console.log(text)
 
 function updateDisplays() {
   lpsCounter = curClickerGain + curOrbGain;
-  lps.innerHTML = "LPS - " + lpsCounter 
+  lps.innerHTML = "LPS - " + lpsCounter;
 }
 
 function updateGains() {
