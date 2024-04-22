@@ -124,7 +124,7 @@ function clickerBuy() {
 }
 }
 
-function orbsBuy() {
+function orbBuy() {
  if (orbCost < legacy) { }
   if (legacy >= orbCost) {
     legacy -= orbCost;
