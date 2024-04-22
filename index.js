@@ -131,8 +131,8 @@ function orbBuy() {
   //normalIns = normalIns + addnormalIns;
     orbCount = orbCount + 1;
     orbCost = Math.round(orbCost * 1.2);
-   clickerNum.innerHTML = "Orbs - " + orbCount;
-   clickerPri.innerHTML = orbCost;
+   orbNum.innerHTML = "Orbs - " + orbCount;
+   orbPri.innerHTML = orbCost;
 }
 }
 
