@@ -8,6 +8,7 @@ setInterval(autogain, 1)
 ////////////////////////////////
 //basic
 var legacy = 0;
+var lpsCounter = 0;
 
 //shop
 var clickerCost = 15;
@@ -77,6 +78,10 @@ const texts = ['Hello There!', 'Hacking in some points, or checking for bugs?', 
 text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
+function updateDisplays() {
+  lpsCounter = curClickerGain + curOrbGain;
+  lps.innerHTML = "LPS - " + lpsCounter 
+}
 
 function updateGains() {
   curClickerGain = clickerCount * baseClickerGain;
