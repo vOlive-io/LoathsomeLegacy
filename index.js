@@ -26,8 +26,6 @@ var baseSageTowerGain = 1;
 var basePrismGain = 1;
 
 //medium auto
-
-//heavy auto
 var curClickerGain = 0;
 var curOrbGain = 0;
 var curFarmGain = 0;
@@ -36,6 +34,16 @@ var curFactoryGain = 0;
 var curBankGain = 0;
 var curLabGain = 0;
 var curPrismGain = 0;
+
+//heavy auto
+var curClickerGainLps = 0;
+var curOrbGainLps = 0;
+var curFarmGainLps = 0;
+var curMineGainLps = 0;
+var curFactoryGainLps = 0;
+var curBankGainLps = 0;
+var curLabGainLps = 0;
+var curPrismGainLps = 0;
 
 //counts
 var clickerCount = 0;
