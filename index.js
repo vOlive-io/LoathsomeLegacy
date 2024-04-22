@@ -16,7 +16,7 @@ var orbCost = 100;
 
 //light auto
 var baseClickerGain = 0.0001;;
-var baseOrbGain = 0.001;
+var baseOrbGain = 0.002;
 var baseFarmGain = 0.05;
 var baseMineGain = 50;
 var baseFactoryGain = 1;
