@@ -86,8 +86,13 @@ const texts = ['Hello There!', 'Hacking in some points, or checking for bugs?', 
 text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
-function updateDisplays() {
-  lpsCounter = curClickerGain + curOrbGain;
+function updateLpsVars() {
+  curClickerGainLps = curClickerGain * 1000;
+  curOrbGainLps = curOrbGain * 1000;
+}
+
+function updateLps() {
+  lpsCounter = curClickerGainLps + curOrbGainLps;
   lps.innerHTML = "LPS - " + lpsCounter;
 }
 
@@ -155,7 +160,8 @@ function orbBuy() {
 function autogain() { 
   if (clickerCount>0) { legacy = legacy + curClickerGain; }
   if (orbCount>0) { legacy = legacy + curOrbGain; }
-  updateDisplays() 
+  updateLpsVars() 
+  updateLps() 
   updatePoints(); 
   updateGains();
 }
