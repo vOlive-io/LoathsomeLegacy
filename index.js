@@ -142,6 +142,7 @@ function orbBuy() {
 function autogain() { 
   if (clickerCount>0) {
   legacy = legacy + curClickerGain;
+  legacy = legacy + curOrbGain;
   updatePoints(); 
   updateGains();
   }
