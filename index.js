@@ -15,10 +15,10 @@ var clickerCost = 15;
 var orbCost = 100;
 
 //light auto
-var baseClickerGain = 0.0001;;
-var baseOrbGain = 0.001;
-var baseFarmGain = 0.05;
-var baseMineGain = 50;
+var baseClickerGain = 0.0002;;
+var baseOrbGain = 0.002;
+var baseFarmGain = 0.010;
+var baseMineGain = 100;
 var baseFactoryGain = 1;
 var baseBankGain = 1;
 var baseLabGain = 1;
@@ -87,8 +87,8 @@ text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
 function updateLpsVars() {
-  curClickerGainLps = curClickerGain * 1000;
-  curOrbGainLps = curOrbGain * 1000;
+  curClickerGainLps = curClickerGain * 500;
+  curOrbGainLps = curOrbGain * 500;
 }
 
 function updateLps() {
