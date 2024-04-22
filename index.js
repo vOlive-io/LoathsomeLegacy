@@ -140,10 +140,8 @@ function orbBuy() {
 //         AUTO POINTS        //
 ////////////////////////////////
 function autogain() { 
-  if (clickerCount>0) {
-  legacy = legacy + curClickerGain;
-  legacy = legacy + curOrbGain;
+  if (clickerCount>0) { legacy = legacy + curClickerGain; }
+  if (clickerOrb>0) { legacy = legacy + curOrbGain; }
   updatePoints(); 
   updateGains();
-  }
 }
