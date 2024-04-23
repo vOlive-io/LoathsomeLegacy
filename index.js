@@ -170,7 +170,7 @@ function autogain() {
 
 
 /////////////////////////////////////
-function 
+function format() {
 if (legacy < 1000) {
     let roundlegacy = Math.round(legacy);
     circle.innerText = "😈 - " + roundCount;
