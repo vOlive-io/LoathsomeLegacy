@@ -104,7 +104,7 @@ function updateGains() {
 function updatePoints() {
 if (legacy < 1000) {
     let roundlegacy = Math.round(legacy);
-    circle.innerText = "😈 - " + roundCount;
+    circle.innerText = "😈 - " + roundLegacy;
   } else {
  let displayPoints = legacy;
   for (let i = suffixes.length - 1; i >= 1; i--) {
