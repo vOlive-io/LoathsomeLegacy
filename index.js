@@ -102,7 +102,11 @@ function updateGains() {
 }
 
 function updatePoints() {
-    let displayPoints = legacy;
+if (legacy < 1000) {
+    let roundlegacy = Math.round(legacy);
+    circle.innerText = "😈 - " + roundCount;
+  } else {
+ let displayPoints = legacy;
   for (let i = suffixes.length - 1; i >= 1; i--) {
     const limit = Math.pow(10, i * 3);
     if (legacy >= limit) {
@@ -111,7 +115,12 @@ function updatePoints() {
     }
   }
     circle.innerHTML = "😈 - " + displayPoints;
+  }
 }
+
+
+
+
 
 ////////////////////////////////
 //          FUNCTIONS         //
@@ -170,19 +179,3 @@ function autogain() {
 
 
 /////////////////////////////////////
-function format() {
-if (legacy < 1000) {
-    let roundlegacy = Math.round(legacy);
-    circle.innerText = "😈 - " + roundCount;
-  } else {
- let displayPoints = legacy;
-  for (let i = suffixes.length - 1; i >= 1; i--) {
-    const limit = Math.pow(10, i * 3);
-    if (legacy >= limit) {
-      displayPoints = (legacy / limit).toFixed(1) + suffixes[i];
-      break;
-    }
-  }
-    circle.innerHTML = "😈 - " + displayPoints;
-  }
-}
